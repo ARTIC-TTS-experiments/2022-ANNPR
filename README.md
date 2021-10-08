@@ -9,7 +9,7 @@ We recommend to use [direnv](https://direnv.net/) together with [pyenv](https://
 git clone https://github.com/ARTIC-TTS-experiments/2022-ICASSP.git
 mkdir 2022-ICASSP
 cd 2022-ICASSP
-echo -e layout pyenv 3.7.5"\n"LIB=\"'$(pwd)/lib'\""\n"export PYTHONPATH=\"'$LIB'\" > .envrc
+echo -e layout pyenv 3.8.7"\n"LIB=\"'$(pwd)/lib'\""\n"export PYTHONPATH=\"'$LIB'\" > .envrc
 direnv allow
 pip install -r requirements.txt
 ```
